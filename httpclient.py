@@ -99,9 +99,9 @@ class HTTPClient(object):
         # print(response.split('\r\n\r\n')[1])
         body = self.get_body(response)
 
-        # print('Code:{code}\nBody:{body}\n'.format(code=code,body=body))
-
         self.close()
+
+        print('Code:{code}\nBody:{body}\n'.format(code=code,body=body))
 
         return HTTPResponse(code, body)
 
@@ -137,6 +137,8 @@ class HTTPClient(object):
 
         self.close()
 
+        print('Code:{code}\nBody:{body}\n'.format(code=code,body=body))
+        
         return HTTPResponse(code, body)
 
     def command(self, url, command="GET", args=None):
