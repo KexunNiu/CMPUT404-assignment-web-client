@@ -21,10 +21,13 @@ compatible) http://docs.python.org/2/library/socketserver.html
 Refernece
 =========
 Fix testInternetGets takes too long: https://github.com/dotnet/runtime/issues/25480
+
 POST headers: https://reqbin.com/req/zvtstmpb/post-request-example
 
 Collaborator
 ============
 kli1  Ke Li
+
+We only discussed verbally and shared opinions.
 
 
